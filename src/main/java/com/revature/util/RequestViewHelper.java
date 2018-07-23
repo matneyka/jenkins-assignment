@@ -8,15 +8,15 @@ public class RequestViewHelper {
 		// System.out.println("[LOG] - Processing request with RequestViewHelper.process()");
 		
 		switch(req.getRequestURI()) {
-		case "/project_1_with_ajax/login.view":
+		case "/jenkins-assignment/login.view":
 			return "partials/login.html";
-		case "/project_1_with_ajax/register.view":
+		case "/jenkins-assignment/register.view":
 			return "partials/register.html";
-		case "/project_1_with_ajax/dashboard.view":
+		case "/jenkins-assignment/dashboard.view":
 			return "partials/dashboard.html";
-		case "/project_1_with_ajax/addrequest.view":
+		case "/jenkins-assignment/addrequest.view":
 			return "partials/addrequest.html";
-		case "/project_1_with_ajax/request.view":
+		case "/jenkins-assignment/request.view":
 			return "partials/request.html";
 		default:
 			return null;
