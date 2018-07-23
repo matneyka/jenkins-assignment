@@ -25,7 +25,7 @@ public class ConnectionFactory {
 		Properties prop = new Properties();
 		
 		try {
-			prop.load(new FileReader("C:\\Users\\Ren\\project-repos\\1806-Jun18-Java-USF\\Karen_Matney\\Week_3\\Project_1\\Java\\project_1_with_ajax\\src\\main\\resources\\application.properties"));
+			prop.load(new FileReader("/home/ec2-user/.properties/application-properties"));
 			
 			Class.forName(prop.getProperty("driver"));
 			
